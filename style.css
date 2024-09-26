@@ -24,6 +24,9 @@ body {
     width: 90%;
 }
 
+.dd{
+    color: #635994;
+}
 h1 {
     margin-bottom: 20px;
     color: #333;
@@ -43,7 +46,7 @@ h1 {
 
 button {
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: #635994;
     color: #fff;
     border: none;
     border-radius: 5px;
