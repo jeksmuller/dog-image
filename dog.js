@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fetchDogImage = async () => {
         try {
             // loading text or spinner 
+            
             // dogImage.src = 'https://i.imgur.com/llF5iyg.gif'; // Loading GIF
             const response = await fetch('https://dog.ceo/api/breeds/image/random');
             const data = await response.json();
